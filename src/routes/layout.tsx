@@ -13,5 +13,9 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 };
 
 export default component$(() => {
-  return <Slot />;
+  return (
+    <main class="min-h-screen bg-[url(https://picsum.photos/seed/picsum/1600/900.webp)] bg-cover text-black">
+      <Slot />
+    </main>
+  );
 });
