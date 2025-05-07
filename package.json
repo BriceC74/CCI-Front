@@ -21,6 +21,7 @@
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
+    "serve": "vite --mode ssr dist/ --host --port=3000",
     "qwik": "qwik"
   },
   "devDependencies": {
@@ -44,5 +45,6 @@
   },
   "dependencies": {
     "gsap": "^3.13.0"
-  }
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }
